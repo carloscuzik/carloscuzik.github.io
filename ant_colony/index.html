@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ant Comportamnet</title>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<style type="text/css">
+	td{
+		height: 5px;
+		width: 5px;
+		margin: 0px;
+		padding : 0px;
+		border: 0px;
+	}
+	.earth{
+		background-color: gray;
+	}
+	.ant_alive{
+		background-color: black;
+	}
+	.ant_dead{
+		background-color: yellow;
+	}
+	table{
+		border: 1px black solid;
+		margin: 0px;
+		padding : 0px;
+		border-spacing: 1px;
+		/*border-collapse: collapse;*/
+	}
+</style>
+<body onload="run();">
+	<button onclick="start_colony()">Start Colony</button>
+	<button onclick="pause_colony()">Pause Colony</button>
+	<table id="ant_colony">
+		
+	</table>
+</body>
+</html>
